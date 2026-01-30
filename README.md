@@ -18,19 +18,15 @@ It does not claim forecasting power or improved winning odds.
 
 ## Quickstart
 
-```bash
+bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 PYTHONPATH=. python scripts/run_simulation.py --draws 100000
 
-
----
-
-# 1️⃣2️⃣ Commit & push
-
-```bash
-git add .
-git commit -m "Initial Monte Carlo simulation for Eurojackpot"
-git push
+## Outputs
+- outputs/main_frequency.csv
+- outputs/euro_frequency.csv
+- outputs/main_frequency.png
+- outputs/euro_frequency.png
 
